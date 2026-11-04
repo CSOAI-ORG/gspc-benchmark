@@ -48,3 +48,14 @@ aggregate **0.5103 ±0.0235**; 24-hour reproduction **0.5051 ±0.0236** (12/13 t
 ## Licence
 
 Banks and tasks: CC-BY-4.0. Measurement, not certification.
+
+---
+
+## Distribution & links
+
+- **Upstream lm-eval PR**: [EleutherAI/lm-evaluation-harness#4527](https://github.com/EleutherAI/lm-evaluation-harness/pull/4527) — proposes this suite into the standard harness
+- **Upstream Inspect PR**: [UKGovernmentBEIS/inspect_evals#2824](https://github.com/UKGovernmentBEIS/inspect_evals/pull/2824) — parameterised Inspect task (`-T axis=all`)
+- **HF suite**: [csoai/gspc-benchmark-suite](https://huggingface.co/datasets/csoai/gspc-benchmark-suite) (banks, runbook, reproduction rows)
+- **Held-out counter-bank**: [csoai/gspc-gov-counter-v1](https://huggingface.co/datasets/csoai/gspc-gov-counter-v1)
+- **Live signed board**: [councilof.ai/api/gspc](https://councilof.ai/api/gspc)
+- **Paper track**: "One Face, Many Minds: A Probe-Floor Architecture for Budget-Capped Game Agents" — ARC Prize 2026 Paper Track writeup (submitted)
