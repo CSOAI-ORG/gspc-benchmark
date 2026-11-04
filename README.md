@@ -59,3 +59,7 @@ Banks and tasks: CC-BY-4.0. Measurement, not certification.
 - **Held-out counter-bank**: [csoai/gspc-gov-counter-v1](https://huggingface.co/datasets/csoai/gspc-gov-counter-v1)
 - **Live signed board**: [councilof.ai/api/gspc](https://councilof.ai/api/gspc)
 - **Paper track**: "One Face, Many Minds: A Probe-Floor Architecture for Budget-Capped Game Agents" — ARC Prize 2026 Paper Track writeup (submitted)
+
+## Add GSPC to your AI platform
+
+Copy-paste configs for Claude.ai/Desktop, Cursor, Gemini CLI, VS Code, ChatGPT endpoints, Windsurf/Cline + the sidebar embed: [ADD_TO_PLATFORM.md](ADD_TO_PLATFORM.md)
