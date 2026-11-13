@@ -1,6 +1,6 @@
 # GSPC Benchmark Suite
 
-**13-axis AI governance & safety measurement tasks** for standard evaluation harnesses, published by [CSOAI](https://csoai.org) (Council for the Safety of Artificial Intelligence).
+**13-axis AI governance & safety measurement tasks** for standard evaluation harnesses, published by **[Council of AI](https://councilof.ai)** (`CSOAI Ltd`, Council for the Safety of Artificial Intelligence). These 13 `lm-eval` tasks (`12` active + `1` retired single-label `gspc_swarm` bank) feed into the broader live GSPC measurement board at [`GET https://councilof.ai/api/gspc`](https://councilof.ai/api/gspc) (read `totals.public_count` and `totals.lid` live).
 
 **Doctrine: measurement, not certification.** UNMEASURED is reported, never hidden. Every bank is CC-BY-4.0, publicly loadable from the Hugging Face Hub, and carries a canary GUID plus per-task SHA-256 in its metadata.
 
@@ -57,7 +57,10 @@ Banks and tasks: CC-BY-4.0. Measurement, not certification.
 - **Upstream Inspect PR**: [UKGovernmentBEIS/inspect_evals#2824](https://github.com/UKGovernmentBEIS/inspect_evals/pull/2824) — parameterised Inspect task (`-T axis=all`)
 - **HF suite**: [csoai/gspc-benchmark-suite](https://huggingface.co/datasets/csoai/gspc-benchmark-suite) (banks, runbook, reproduction rows)
 - **Held-out counter-bank**: [csoai/gspc-gov-counter-v1](https://huggingface.co/datasets/csoai/gspc-gov-counter-v1)
-- **Live signed board**: [councilof.ai/api/gspc](https://councilof.ai/api/gspc)
+- **Live signed board**: [`GET https://councilof.ai/api/gspc`](https://councilof.ai/api/gspc)
+- **Remote GSPC MCP gateway**: `https://councilof.ai/mcp` (streamable HTTP; free read/verify tools)
+- **Free verifier**: [councilof.ai/gspc-verify](https://councilof.ai/gspc-verify)
+- **Corrections ledger**: [councilof.ai/api/corrections](https://councilof.ai/api/corrections)
 - **Paper track**: "One Face, Many Minds: A Probe-Floor Architecture for Budget-Capped Game Agents" — ARC Prize 2026 Paper Track writeup (submitted)
 
 ## Add GSPC to your AI platform
