@@ -63,10 +63,11 @@ Then ask Claude things like "pull the GSPC board totals" or "verify card <id>".
 
 ## ChatGPT (connectors / GPT actions)
 ChatGPT supports remote MCP servers via Connectors where available; otherwise create a GPT with an Actions OpenAPI schema over these verified read endpoints:
-- `GET https://councilof.ai/api/gspc` — live board totals (34 axes · 34 measured)
+- `GET https://councilof.ai/api/gspc` — live board totals (read `totals.public_count` and `totals.lid` live)
 - `GET https://councilof.ai/api/axis-register` — axis registry
 - `GET https://councilof.ai/api/cards` — signed measurement cards
-- `GET https://councilof.ai/api/measurement-capsules/latest.json` — capsule index (11,529 capsules)
+- `GET https://councilof.ai/measurement-capsules/latest.json` — live measurement capsule pointer & index metadata
+- `GET https://councilof.ai/api/corrections` — public corrections & retractions ledger
 
 ## Windsurf / Cline / any MCP client
 Same pattern: remote MCP, URL `https://councilof.ai/mcp`, streamable HTTP.
